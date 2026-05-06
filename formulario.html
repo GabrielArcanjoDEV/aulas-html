@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    
+    <title>Formulario (1/2)</title>
+</head>
+<body>
+    <H1>Formulario (1/2)</H1>
+    <fieldset>
+        <legend> dados basicos</legend>
+    <form action="https://httpbin.dev/post " method="POST">
+
+    <div>
+    <label for="username">usuario</label>
+    <div>
+    <input id="username" name="usuario" >
+       </div>
+
+       
+    <label for="passeword">senha</label>
+        <div>
+    <input id="passeword" name="senha" type="password" placeholder="digite sua senha gostoso..." required="true">
+       </div>
+       </fieldset>
+    
+    
+       <fieldset>
+        <legend>Qual turno vc pretende estudar</legend>
+
+    <input type="checkbox" value="manhã">
+    <label>manhã</label>
+
+
+      <input type="checkbox" value=" tarde">
+    <label>tarde</label>
+
+      <input type="checkbox" value="noite">
+    <label>noite</label>
+    </fieldset>
+ 
+    <fieldset>
+        <legend>Qual curso vc deseja cursa</legend>
+
+          <input type="radio" value="Analise e densenvolvimento de sistema">
+    <label>Analise e densenvolvimento de sistema</label>
+
+
+      <input type="radio" value=" Energia Renovaveis">
+    <label>Energia Renovaveis</label>
+
+      <input type="radio" value="Agrcultura familiar">
+    <label>Agrcultura familiar</label>
+
+    </fieldset>
+
+    <button>Acessar</button>
+    
+    </form>
+    
+</body>
+</html>
